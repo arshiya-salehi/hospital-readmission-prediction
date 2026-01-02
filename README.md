@@ -114,3 +114,34 @@ These visualizations help explain model behavior beyond raw performance metrics.
 ---
 
 ## Project Structure
+├── cs178_final_project.ipynb
+├── report.pdf
+├── README.md
+
+
+---
+
+## Contributors
+- **Mohammadarshya Salehibakhsh**
+  - Visualization, analysis, and report writing
+- **Vishok Lakshmankumar**
+  - Model training, evaluation metrics, and analysis
+- **Eric Tao**
+  - Recall-optimized training strategies and advanced evaluation
+
+---
+
+## Key Takeaways
+This project highlights the importance of:
+- Proper evaluation metrics for imbalanced datasets
+- Model calibration in healthcare applications
+- Experimental rigor and reproducibility
+- Understanding trade-offs between simplicity, interpretability, and performance
+
+---
+
+## Future Work
+- Incorporate cost-sensitive learning
+- Explore temporal patient data
+- Apply ensemble methods focused on recall optimization
+- Evaluate clinical utility with domain-specific constraints
