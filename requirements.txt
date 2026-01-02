@@ -1,0 +1,17 @@
+# Core numeric / data-science stack
+numpy>=1.25
+pandas>=2.2
+scipy>=1.11              # implicit dependency of scikit-learn
+matplotlib>=3.8
+seaborn>=0.13
+
+# Machine-learning libraries
+scikit-learn>=1.5
+xgboost>=2.0
+eli5>=0.14               # permutation importance helper
+joblib>=1.4              # used directly + by scikit-learn
+
+# Optional utilities (if you plan to pickle / dump models)
+cloudpickle>=3.0         # better cross-version robustness than pickle
+
+imblearn
